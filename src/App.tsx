@@ -11,10 +11,6 @@ const App: FC<{}> = () => {
       <Navbar />
       <main>
         <Hero />
-        <Hero />
-        <Hero />
-        <Hero />
-        <Hero />
       </main>
     </div>
   );
