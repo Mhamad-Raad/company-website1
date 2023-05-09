@@ -8,7 +8,7 @@ const Navbar: FC<{}> = () => {
   const handleClick = () => setOpenMenu(!openMenu);
 
   return (
-    <nav className='w-screen h-[75px] bg-zinc-200 fixed drop-shadow-lg'>
+    <nav className='w-screen z-20 h-[75px] bg-zinc-200 fixed drop-shadow-lg'>
       <div className='w-full h-full flex items-center justify-between'>
         <div className='w-full h-full flex items-center'>
           <h1 className='text-3xl font-bold mr-4 sm:text-4xl pl-4'>LOGO</h1>
@@ -40,20 +40,20 @@ const Navbar: FC<{}> = () => {
         </div>
       </div>
       {openMenu && (
-        <ul className='absolute py-10 flex flex-col gap-10 w-full px-8 bg-zinc-200 md:hidden'>
-          <li className='text-2xl font-normal border-b-2 border-zinc-300'>
+        <ul className='relative overflow-scroll z-20 h-screen py-10 pb-[175px] flex flex-col gap-10 w-full px-8 bg-zinc-200 md:hidden'>
+          <li className='text-2xl text-center font-normal border-b-2 border-zinc-300'>
             Home
           </li>
-          <li className='text-2xl font-normal border-b-2 border-zinc-300'>
+          <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
             About
           </li>
-          <li className='text-2xl font-normal border-b-2 border-zinc-300'>
+          <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
             Support
           </li>
-          <li className='text-2xl font-normal border-b-2 border-zinc-300'>
+          <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
             Platforms
           </li>
-          <li className='text-2xl font-normal border-b-2 border-zinc-300'>
+          <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
             Price
           </li>
           <li className='flex flex-col gap-5 w-full'>
