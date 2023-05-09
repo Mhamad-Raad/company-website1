@@ -5,3 +5,9 @@
 button {
   @apply p-4 font-bold rounded-md hover:bg-slate-700 hover:text-white;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
