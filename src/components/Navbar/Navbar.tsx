@@ -40,7 +40,7 @@ const Navbar: FC<{}> = () => {
         </div>
       </div>
       {openMenu && (
-        <ul className='absolute py-10 flex flex-col gap-10 w-full px-8 bg-zinc-200'>
+        <ul className='absolute py-10 flex flex-col gap-10 w-full px-8 bg-zinc-200 md:hidden'>
           <li className='text-2xl font-normal border-b-2 border-zinc-300'>
             Home
           </li>
