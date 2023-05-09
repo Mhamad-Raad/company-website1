@@ -26,7 +26,7 @@ const Navbar: FC<{}> = () => {
           </button>
           <button
             type='button'
-            className='bg-zinc-300 text-zinc-500 font-bold px-4 py-3 h-[75px]'
+            className='bg-indigo-500 text-white font-bold px-4 py-3 h-[75px]'
           >
             Sign Up
           </button>
