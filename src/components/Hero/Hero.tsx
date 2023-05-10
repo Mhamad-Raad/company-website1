@@ -11,7 +11,7 @@ import bgImg from '../assets/cyber-bg.png';
 
 const Hero: FC<{}> = () => {
   return (
-    <section className='relative w-full h-fit flex flex-col justify-between max-sm: pt-20'>
+    <section className='px-2 bg-zinc-200 lg:px-4 relative w-full h-fit flex flex-col justify-between max-sm: pt-20'>
       <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
         <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
           <p className='text-2xl'>Unique Sequencing & Production</p>
