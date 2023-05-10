@@ -3,6 +3,7 @@ import { FC } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
+import Support from './components/Support/Support';
 
 import './App.scss';
 
@@ -13,6 +14,7 @@ const App: FC<{}> = () => {
       <main>
         <Hero />
         <About />
+        <Support />
       </main>
     </div>
   );
