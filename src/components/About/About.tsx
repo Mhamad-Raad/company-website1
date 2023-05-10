@@ -4,7 +4,7 @@ import './About.scss';
 
 const About: FC<{}> = () => {
   return (
-    <section className='w-full mt-56 md:mt-40'>
+    <section className='w-full mt-56 md:mt-40 max-[400px]:mt-[300px]'>
       <div className='max-w-[1240px] mx-auto'>
         <div className='text-center'>
           <h2 className='text-5xl font-bold'>
