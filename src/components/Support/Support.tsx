@@ -38,7 +38,7 @@ const Support: FC<{}> = () => {
         <div className='grid lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
           <div className='bg-white rounded-xl shadow-2xl'>
             <div className='p-8'>
-              <FaPhoneAlt className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
+              <FaPhoneAlt className='text-5xl p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
               <h3 className='font-bold text-2xl my-6'>Sales</h3>
               <p className='text-gray-600 text-xl'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -54,7 +54,7 @@ const Support: FC<{}> = () => {
           </div>
           <div className='bg-white rounded-xl shadow-2xl'>
             <div className='p-8'>
-              <MdOutlineSupportAgent className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
+              <MdOutlineSupportAgent className='text-5xl p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
               <h3 className='font-bold text-2xl my-6'>Technical Support</h3>
               <p className='text-gray-600 text-xl'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -70,7 +70,7 @@ const Support: FC<{}> = () => {
           </div>
           <div className='bg-white rounded-xl shadow-2xl'>
             <div className='p-8'>
-              <HiChip className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
+              <HiChip className='text-5xl p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
               <h3 className='font-bold text-2xl my-6'>Media Inquiries</h3>
               <p className='text-gray-600 text-xl'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
