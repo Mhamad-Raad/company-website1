@@ -30,7 +30,7 @@ const Hero: FC<{}> = () => {
           </button>
         </div>
         <img src={bgImg} alt='Background image' className='w-full h-fit' />
-        <div className='absolute bottom-[-16%] max-[400px]:bottom-[-35%] flex flex-col justify-center items-center md:min-w-[768px] md:left-1/2 transform md:-translate-x-1/2 py-8 border border-zinc-300  shadow-lg shadow-indigo-500/40 rounded-2xl bg-zinc-200 max-sm: py-4  max-sm:w-[80%]  max-sm:left-[10%]'>
+        <div className='absolute bottom-[-25%] max-[400px]:bottom-[-35%] flex flex-col justify-center items-center md:min-w-[768px] md:left-1/2 transform md:-translate-x-1/2 py-8 border border-zinc-300  shadow-lg shadow-indigo-500/40 rounded-2xl bg-zinc-200 max-sm: py-4  max-sm:w-[80%]  max-sm:left-[10%]'>
           <h2 className='font-bold text-2xl mb-2'>Data Services</h2>
           <div className='flex flex-wrap justify-between items-center max-sm:justify-center'>
             <p className='flex px-4 py-2 gap-5 items-center'>
