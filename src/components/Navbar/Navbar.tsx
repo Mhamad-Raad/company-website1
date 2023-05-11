@@ -93,19 +93,59 @@ const Navbar: FC<{}> = () => {
       {openMenu && (
         <ul className='relative overflow-scroll z-20 h-screen py-10 pb-[175px] flex flex-col gap-10 w-full px-8 bg-zinc-200 md:hidden'>
           <li className='text-2xl text-center font-normal border-b-2 border-zinc-300'>
-            Home
+            <Link
+              to='Home'
+              smooth={true}
+              duration={500}
+              activeClass='text-slate-500'
+              spy={true}
+            >
+              Home
+            </Link>
           </li>
           <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
-            About
+            <Link
+              to='About'
+              smooth={true}
+              duration={500}
+              activeClass='text-slate-500'
+              spy={true}
+            >
+              About
+            </Link>
           </li>
           <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
-            Support
+            <Link
+              to='Support'
+              smooth={true}
+              duration={500}
+              activeClass='text-slate-500'
+              spy={true}
+            >
+              Support
+            </Link>
           </li>
           <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
-            Platforms
+            <Link
+              to='Platforms'
+              smooth={true}
+              duration={500}
+              activeClass='text-slate-500'
+              spy={true}
+            >
+              Platforms
+            </Link>
           </li>
           <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
-            Price
+            <Link
+              to='Price'
+              smooth={true}
+              duration={500}
+              activeClass='text-slate-500'
+              spy={true}
+            >
+              Price
+            </Link>
           </li>
           <li className='flex flex-col gap-5 w-full'>
             <button
