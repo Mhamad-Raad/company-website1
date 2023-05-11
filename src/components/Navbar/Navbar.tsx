@@ -1,4 +1,5 @@
 import { FC, useState } from 'react';
+import { Link } from 'react-scroll';
 import { HiMenu, HiX } from 'react-icons/hi';
 
 import './Navbar.scss';
@@ -13,11 +14,21 @@ const Navbar: FC<{}> = () => {
         <div className='w-full h-full flex items-center'>
           <h1 className='text-3xl font-bold mr-4 sm:text-4xl pl-4'>LOGO</h1>
           <ul className='hidden md:flex items-end'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Support</li>
-            <li>Platforms</li>
-            <li>Price</li>
+            <li>
+              <Link to='Home'>Home</Link>
+            </li>
+            <li>
+              <Link to='About'>About</Link>
+            </li>
+            <li>
+              <Link to='Support'>Support</Link>
+            </li>
+            <li>
+              <Link to='Platforms'>Platforms</Link>
+            </li>
+            <li>
+              <Link to='Price'>Price</Link>
+            </li>
           </ul>
         </div>
         <div className='hidden md:flex items-center justify-end w-full pr-4'>

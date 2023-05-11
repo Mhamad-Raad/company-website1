@@ -10,7 +10,7 @@ import './Support.scss';
 
 const Support: FC<{}> = () => {
   return (
-    <section className='w-full mt-24'>
+    <section id='Support' className='w-full mt-24'>
       <div className='w-full h-[700px] bg-gray-900/90 absolute'>
         <img
           className='w-full h-full object-cover mix-blend-overlay'
