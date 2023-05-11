@@ -41,6 +41,7 @@ const Navbar: FC<{}> = () => {
                 to='Support'
                 smooth={true}
                 duration={500}
+                offset={-50}
                 activeClass='text-slate-500'
                 spy={true}
               >
@@ -91,63 +92,68 @@ const Navbar: FC<{}> = () => {
         </div>
       </div>
       {openMenu && (
-        <ul className='relative overflow-scroll z-20 h-screen py-10 pb-[175px] flex flex-col gap-10 w-full px-8 bg-zinc-200 md:hidden'>
-          <li className='text-2xl text-center font-normal border-b-2 border-zinc-300'>
-            <Link
-              to='Home'
-              smooth={true}
-              duration={500}
-              activeClass='text-slate-500'
-              spy={true}
-            >
-              Home
-            </Link>
-          </li>
-          <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
-            <Link
-              to='About'
-              smooth={true}
-              duration={500}
-              activeClass='text-slate-500'
-              spy={true}
-            >
-              About
-            </Link>
-          </li>
-          <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
-            <Link
-              to='Support'
-              smooth={true}
-              duration={500}
-              activeClass='text-slate-500'
-              spy={true}
-            >
-              Support
-            </Link>
-          </li>
-          <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
-            <Link
-              to='Platforms'
-              smooth={true}
-              duration={500}
-              activeClass='text-slate-500'
-              spy={true}
-            >
-              Platforms
-            </Link>
-          </li>
-          <li className='text-2xl font-normal text-center border-b-2 border-zinc-300'>
-            <Link
-              to='Price'
-              smooth={true}
-              duration={500}
-              activeClass='text-slate-500'
-              spy={true}
-            >
-              Price
-            </Link>
-          </li>
-          <li className='flex flex-col gap-5 w-full'>
+        <div className='relative overflow-scroll z-20 h-screen py-10 pb-[175px] flex flex-col gap-10 w-full px-8 bg-zinc-200 md:hidden'>
+          <Link
+            className='text-2xl pb-4 text-center font-normal border-b-2 border-zinc-300'
+            to='Home'
+            smooth={true}
+            duration={500}
+            activeClass='text-slate-500'
+            spy={true}
+            onClick={handleClick}
+          >
+            Home
+          </Link>
+
+          <Link
+            className='text-2xl pb-4 font-normal text-center border-b-2 border-zinc-300'
+            to='About'
+            smooth={true}
+            duration={500}
+            activeClass='text-slate-500'
+            spy={true}
+            onClick={handleClick}
+          >
+            About
+          </Link>
+          <Link
+            className='text-2xl pb-4 font-normal text-center border-b-2 border-zinc-300'
+            to='Support'
+            offset={-50}
+            smooth={true}
+            duration={500}
+            activeClass='text-slate-500'
+            spy={true}
+            onClick={handleClick}
+          >
+            Support
+          </Link>
+
+          <Link
+            className='text-2xl pb-4 font-normal text-center border-b-2 border-zinc-300'
+            to='Platforms'
+            smooth={true}
+            duration={500}
+            activeClass='text-slate-500'
+            spy={true}
+            onClick={handleClick}
+          >
+            Platforms
+          </Link>
+
+          <Link
+            className='text-2xl pb-4 font-normal text-center border-b-2 border-zinc-300'
+            to='Price'
+            smooth={true}
+            duration={500}
+            activeClass='text-slate-500'
+            spy={true}
+            onClick={handleClick}
+          >
+            Price
+          </Link>
+
+          <div className='flex flex-col gap-5 w-full'>
             <button
               className='border-2 border-indigo-500 text-indigo-500'
               type='button'
@@ -157,8 +163,8 @@ const Navbar: FC<{}> = () => {
             <button className='bg-indigo-500 text-white' type='button'>
               Sign Up
             </button>
-          </li>
-        </ul>
+          </div>
+        </div>
       )}
     </nav>
   );
