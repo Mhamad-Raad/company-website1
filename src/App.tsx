@@ -8,6 +8,7 @@ import AllInOne from './components/AllInOne/AllInOne';
 import Pricing from './components/Pricing/Pricing';
 
 import './App.scss';
+import Footer from './components/Footer/Footer';
 
 const App: FC<{}> = () => {
   return (
@@ -20,6 +21,7 @@ const App: FC<{}> = () => {
         <AllInOne />
         <Pricing />
       </main>
+      <Footer />
     </div>
   );
 };
