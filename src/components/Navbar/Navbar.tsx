@@ -15,19 +15,59 @@ const Navbar: FC<{}> = () => {
           <h1 className='text-3xl font-bold mr-4 sm:text-4xl pl-4'>LOGO</h1>
           <ul className='hidden md:flex items-end'>
             <li>
-              <Link to='Home'>Home</Link>
+              <Link
+                to='Home'
+                smooth={true}
+                duration={500}
+                activeClass='text-slate-500'
+                spy={true}
+              >
+                Home
+              </Link>
             </li>
             <li>
-              <Link to='About'>About</Link>
+              <Link
+                to='About'
+                smooth={true}
+                duration={500}
+                activeClass='text-slate-500'
+                spy={true}
+              >
+                About
+              </Link>
             </li>
             <li>
-              <Link to='Support'>Support</Link>
+              <Link
+                to='Support'
+                smooth={true}
+                duration={500}
+                activeClass='text-slate-500'
+                spy={true}
+              >
+                Support
+              </Link>
             </li>
             <li>
-              <Link to='Platforms'>Platforms</Link>
+              <Link
+                to='Platforms'
+                smooth={true}
+                duration={500}
+                activeClass='text-slate-500'
+                spy={true}
+              >
+                Platforms
+              </Link>
             </li>
             <li>
-              <Link to='Price'>Price</Link>
+              <Link
+                to='Price'
+                smooth={true}
+                duration={500}
+                activeClass='text-slate-500'
+                spy={true}
+              >
+                Price
+              </Link>
             </li>
           </ul>
         </div>
