@@ -90,7 +90,7 @@ _**Contact me:**_
 In order to run this project you need:
 ```
   Source code editor
-  Node.js and Npm
+  Npm
   Git
 ```
 ### Setup
@@ -98,8 +98,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  git clone https://github.com/Mhamad-Raad/Portfolio.git
-  cd Portfolio
+  git clone https://github.com/Mhamad-Raad/company-website1.git
+  cd company-website1
 ```
 
 ### Install
@@ -134,11 +134,11 @@ You can deploy this project using:
 👤 **Mhamad Raad**
 
  &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Mhamad-Raad">
-      <img alt="ruby" width="130px" height="35px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+      <img alt="Github Account" width="130px" height="35px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
     </a>
     <br>
  &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/mhamad-raad">
-      <img alt="ruby" height="35px" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+      <img alt="LinkedIn Account" height="35px" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
     </a>
 
 
@@ -148,8 +148,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add a page for sharing content.
-- Add a page to see the projects more clearly.
+- Add animation.
+- add functionality to footer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +159,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Mhamad-Raad/Portfolio/issues).
+Feel free to check the [issues page](https://github.com/Mhamad-Raad/company-website1/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,8 +175,8 @@ If you like this project please give it a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks to everyone who their codes/tutorials/3D models has been used in this project.
-without them this would have been harder than it was, so thank you <3.
+Thanks to [issues page](https://github.com/fireclint) for putting a tutorial of how to make this website with tailwind,
+I have made some minor Design changes, added navigation, and fixed some responsivity bugs for his tutorial.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
