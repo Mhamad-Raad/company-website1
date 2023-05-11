@@ -75,7 +75,7 @@ _**Contact me:**_
 ## 🚀 Live Preview <a name="live-demo"></a>
 > _Check out our live site to see our app in action! Click the link below to visit the site and try it out for yourself_
 
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://portfolio-mhamad-raad.vercel.app/">
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://company-website1-ashy.vercel.app/">
     <img alt="live link" width="120px"  height="35px" src="https://img.shields.io/badge/Active-00A95C?style=for-the-badge&logo=netlify&logoColor=white" />
   </a>
 
@@ -175,7 +175,7 @@ If you like this project please give it a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks to [issues page](https://github.com/fireclint) for putting a tutorial of how to make this website with tailwind,
+Thanks to [Clint Briley](https://github.com/fireclint) for putting a tutorial of how to make this website with tailwind,
 I have made some minor Design changes, added navigation, and fixed some responsivity bugs for his tutorial.
 
 
