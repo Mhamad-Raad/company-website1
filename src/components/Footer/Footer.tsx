@@ -13,40 +13,40 @@ const Footer: FC<{}> = () => {
             Solutions
           </h6>
           <ul>
-            <li className='py-1 max-[400px]:text-center'>Marketing</li>
-            <li className='py-1 max-[400px]:text-center'>Analytics</li>
-            <li className='py-1 max-[400px]:text-center'>Commerce</li>
-            <li className='py-1 max-[400px]:text-center'>Data</li>
-            <li className='py-1 max-[400px]:text-center'>Cloud</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Marketing</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Analytics</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Commerce</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Data</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Cloud</li>
           </ul>
         </div>
         <div>
           <h6 className='font-bold uppercase pt-2 max-[400px]:text-center'>Support</h6>
           <ul>
-            <li className='py-1 max-[400px]:text-center'>Pricing</li>
-            <li className='py-1 max-[400px]:text-center'>Documentation</li>
-            <li className='py-1 max-[400px]:text-center'>Guides</li>
-            <li className='py-1 max-[400px]:text-center'>API Status</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Pricing</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Documentation</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Guides</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>API Status</li>
           </ul>
         </div>
         <div>
           <h6 className='font-bold uppercase pt-2 max-[400px]:text-center'>Company</h6>
           <ul>
-            <li className='py-1 max-[400px]:text-center'>About</li>
-            <li className='py-1 max-[400px]:text-center'>Blog</li>
-            <li className='py-1 max-[400px]:text-center'>Jobs</li>
-            <li className='py-1 max-[400px]:text-center'>Press</li>
-            <li className='py-1 max-[400px]:text-center'>Partners</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>About</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Blog</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Jobs</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Press</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Partners</li>
           </ul>
         </div>
         <div>
           <h6 className='font-bold uppercase pt-2 max-[400px]:text-center'>Legal</h6>
           <ul>
-            <li className='py-1 max-[400px]:text-center'>Claims</li>
-            <li className='py-1 max-[400px]:text-center'>Privacy</li>
-            <li className='py-1 max-[400px]:text-center'>Terms</li>
-            <li className='py-1 max-[400px]:text-center'>Policies</li>
-            <li className='py-1 max-[400px]:text-center'>Conditions</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Claims</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Privacy</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Terms</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Policies</li>
+            <li className='py-1 text-slate-500 pl-0 max-[400px]:text-center'>Conditions</li>
           </ul>
         </div>
         <div className='col-span-2 pt-8 md:pt-2'>
