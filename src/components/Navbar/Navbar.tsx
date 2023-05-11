@@ -16,6 +16,7 @@ const Navbar: FC<{}> = () => {
           <ul className='hidden md:flex items-end'>
             <li>
               <Link
+                className='hover:cursor-pointer'
                 to='Home'
                 smooth={true}
                 duration={500}
@@ -27,6 +28,7 @@ const Navbar: FC<{}> = () => {
             </li>
             <li>
               <Link
+                className='hover:cursor-pointer'
                 to='About'
                 smooth={true}
                 duration={500}
@@ -38,6 +40,7 @@ const Navbar: FC<{}> = () => {
             </li>
             <li>
               <Link
+                className='hover:cursor-pointer'
                 to='Support'
                 smooth={true}
                 duration={500}
@@ -50,6 +53,7 @@ const Navbar: FC<{}> = () => {
             </li>
             <li>
               <Link
+                className='hover:cursor-pointer'
                 to='Platforms'
                 smooth={true}
                 duration={500}
@@ -61,6 +65,7 @@ const Navbar: FC<{}> = () => {
             </li>
             <li>
               <Link
+                className='hover:cursor-pointer'
                 to='Price'
                 smooth={true}
                 duration={500}
